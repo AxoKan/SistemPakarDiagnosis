@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 07, 2024 at 10:35 AM
+-- Generation Time: Sep 09, 2024 at 04:20 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 7.4.27
 
@@ -30,9 +30,9 @@ SET time_zone = "+00:00";
 CREATE TABLE `gejala` (
   `id_gejala` int(11) NOT NULL,
   `Kode` varchar(255) DEFAULT NULL,
-  `NamaG` varchar(255) DEFAULT NULL,
-  `Masalah` varchar(255) DEFAULT NULL,
-  `Solusi` varchar(255) DEFAULT NULL
+  `NamaG` text DEFAULT NULL,
+  `Masalah` text DEFAULT NULL,
+  `Solusi` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
